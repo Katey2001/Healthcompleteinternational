@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Health Complete International</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--red:#9a0000;--green:#0b6100;--paper:#fff;--ink:#0a4d70;--mute:#3f6479;--soft:#eaf3f8;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#0b1c27;--ink:#e4f1f8;--mute:#a9c4d3;--soft:#11283a}}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.08rem/1.65 "Nunito Sans",system-ui,sans-serif}
+h1,h2,h3,.wm{font-family:Quicksand,"Segoe UI",sans-serif;margin:0}
+a{color:inherit}
+:focus-visible{outline:3px solid currentColor;outline-offset:3px}
+.wrap{max-width:66rem;margin:0 auto;padding:0 1.25rem}
+nav{display:flex;justify-content:space-between;align-items:center;padding:1rem 0;gap:1rem;flex-wrap:wrap}
+nav .wm{font-size:1.4rem;font-weight:300}nav .wm b{font-weight:700}
+nav ul{display:flex;gap:1.25rem;list-style:none;margin:0;padding:0;font-weight:600;font-size:.95rem}
+nav a{text-decoration:none}nav a:hover{text-decoration:underline}
+.hero{background:var(--red);color:#fff;padding-bottom:4.5rem}
+.hero .grid{display:grid;grid-template-columns:1.1fr 1fr;gap:2rem;align-items:center;padding-top:2.5rem}
+.mark{display:flex;width:fit-content;max-width:100%;align-items:flex-end;position:relative;line-height:.8;font-family:Quicksand,sans-serif}
+.mark .h{font-weight:700;font-size:clamp(9rem,26vw,16rem)}
+.mark .rest{font-weight:300;font-size:clamp(3.4rem,10vw,6rem);margin-left:.1em;padding-bottom:.1em;line-height:1}
+.mark .n{position:absolute;right:0;bottom:-.9rem;font-weight:700;font-size:clamp(1.5rem,4.4vw,2.4rem)}
+.mark svg{position:absolute;left:.4rem;top:-.4rem;width:clamp(4.5rem,13vw,7.5rem)}
+.hero h1{font-weight:700;font-size:clamp(2rem,5.2vw,3.2rem);line-height:1.1}
+.hero p{max-width:34rem;margin:1rem 0 1.5rem}
+.btn{display:inline-block;padding:.8rem 1.4rem;border-radius:999px;font:700 1rem Quicksand,sans-serif;text-decoration:none;border:2px solid #fff;color:#fff;margin:0 .5rem .5rem 0}
+.btn.fill,.btn:hover{background:#fff;color:var(--red)}
+section{padding:4.5rem 0}
+h2{font-size:clamp(1.8rem,4vw,2.5rem);font-weight:700;margin-bottom:1rem;line-height:1.15}
+.lead{max-width:40rem;color:var(--mute)}
+.vision{margin-top:2rem;padding-left:1.2rem;border-left:5px solid var(--green);max-width:40rem;font:300 1.4rem/1.4 Quicksand,sans-serif}
+.green{background:var(--green);color:#fff}
+.green .lead{color:#e3f0df}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem;margin-top:2rem;padding:0;list-style:none}
+.cards li{border:2px solid rgba(255,255,255,.55);border-radius:.8rem;padding:1.1rem 1.2rem}
+.cards h3{font-size:1.15rem;margin-bottom:.25rem}
+.cards p{margin:0;font-size:.98rem;opacity:.95}
+.join{background:var(--soft)}
+.join .btn{color:#fff;background:var(--red);border-color:var(--red)}
+.join .btn:hover{background:transparent;color:var(--red)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .join .btn:hover{color:#fff}}
+footer{padding:2rem 0 calc(2.5rem + env(safe-area-inset-bottom,0px));font-size:.9rem;color:var(--mute)}
+footer b{color:var(--ink)}
+@media (max-width:760px){.hero .grid{grid-template-columns:1fr}section{padding:3.2rem 0}.mark{margin-bottom:2rem}}
+@media (max-width:480px){nav{justify-content:center;text-align:center}nav ul{gap:1rem}.btn{display:block;text-align:center;margin-right:0}.vision{font-size:1.2rem}.hero{padding-bottom:3rem}}
+.hero .grid>*{min-width:0}h1,h2,h3{overflow-wrap:break-word}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <nav aria-label="Main">
+      <span class="wm">Health <b>Complete</b> International</span>
+      <ul><li><a href="#about">About</a></li><li><a href="#work">Our work</a></li><li><a href="#join">Get involved</a></li></ul>
+    </nav>
+    <div class="grid">
+      <div class="mark" role="img" aria-label="Health Complete logo">
+        <svg viewBox="0 0 100 70" aria-hidden="true" fill="#fff"><path d="M50 62C48 30 62 8 96 4c2 32-14 54-46 58z"/><path d="M48 62C46 42 34 28 6 30c0 24 14 34 42 32z"/></svg>
+        <span class="h">h</span><span class="rest">ealth</span><span class="n">complete</span>
+      </div>
+      <div>
+        <h1>Total Health Emancipation</h1>
+        <p>Empowering underserved communities through education and targeted health interventions.</p>
+        <a class="btn fill" href="#work">Our work</a>
+        <a class="btn" href="#join">Get involved</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="about">
+  <div class="wrap">
+    <h2>Health starts with knowledge and opportunity</h2>
+    <p class="lead">Health Complete International is a humanitarian, development-focused organisation. Its work reaches women, children, young people, persons with disabilities, older persons and low-income households, so that nobody is left behind.</p>
+    <p class="vision">A society empowered through knowledge, equitable opportunities and accessible interventions to realise optimal health, dignity and sustainable wellbeing.</p>
+  </div>
+</section>
+
+<section id="work" class="green">
+  <div class="wrap">
+    <h2>Our work</h2>
+    <p class="lead">Seven connected areas, because health, education, income and environment shape one another.</p>
+    <ul class="cards">
+      <li><h3>Health education</h3><p>Awareness on disease prevention, maternal and child health, and healthy living.</p></li>
+      <li><h3>Healthcare access</h3><p>Free screenings, medical outreach and referrals to care.</p></li>
+      <li><h3>Education</h3><p>Scholarships, mentorship and skills for disadvantaged young people.</p></li>
+      <li><h3>Women and youth</h3><p>Training, entrepreneurship and financial literacy.</p></li>
+      <li><h3>Environmental health</h3><p>Clean water, sanitation, hygiene and community clean-ups.</p></li>
+      <li><h3>Social protection</h3><p>Support and inclusion for vulnerable households.</p></li>
+      <li><h3>Partnerships</h3><p>Working with government, hospitals, companies and donors.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section id="join" class="join">
+  <div class="wrap">
+    <h2>Get involved</h2>
+    <p class="lead">Fund a programme, offer professional expertise, give supplies or volunteer time.</p>
+    <p><a class="btn" href="mailto:info@example.org?subject=Health%20Complete%20International">Get in touch</a></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap"><b>Health Complete International</b> · Total Health Emancipation</div>
+</footer>
+</body>
+</html>
